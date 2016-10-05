@@ -1,0 +1,45 @@
+nav {
+  background: green;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  box-sizing: border-box;
+  width: 300px;
+  opacity: .1;
+}
+
+nav:hover {
+  opacity: 1;
+}
+
+nav > ul {
+  position: absolute;
+  padding: 15px 30px;
+}
+
+nav li {
+  margin: 10px 0;
+  font-size: 14px;
+  line-height: 15px;
+  color: rgba(0,0,0,.8)
+}
+
+nav > ul > li:hover {
+  color: rgba(0, 0, 0, 1);
+}
+
+nav li:hover {
+  opacity: 1;
+}
+
+nav > ul > li:first-child {
+  font-weight: bold;
+}
+
+nav > ul > li > ul {
+  padding-left: 10px;
+}
+
+nav > ul > li > ul li {
+  color: rgba (0,0,0,.4)
+}
