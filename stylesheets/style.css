@@ -4,3 +4,5 @@
 @import "layout.css";
 @import "content.css";
 @import "sidebar.css";
+@import 'gallery.css';
+@import 'responsive.css';
